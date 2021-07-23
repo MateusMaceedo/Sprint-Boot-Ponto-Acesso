@@ -1,7 +1,7 @@
 # <p align="center"> ♨️ Santander Bootcamp | Fullstack Developer  </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/50052600/123530974-d03df980-d6d6-11eb-91cb-c905b33eddb3.png" alt="Photo Card" width="95%"/>
+<img src="https://github.com/MateusMaceedo/Sprint-Boot-Ponto-Acesso/blob/main/img/icon.png?raw=true" alt="Photo Card" width="95%"/>
 </p>
 
 <p align="center"> stagging ⚠️  </p>
