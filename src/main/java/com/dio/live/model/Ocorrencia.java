@@ -1,7 +1,6 @@
 package com.dio.live.model;
 
 import lombok.*;
-import javax.persistence.ManyToOne;
 
 @Getter
 @Setter
@@ -9,9 +8,8 @@ import javax.persistence.ManyToOne;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
-public class Localidade {
+public class Ocorrencia {
     private long id;
-    @ManyToOne
-    private NivelAcesso nivelAcesso;
+    private String nome;
     private String descrisao;
 }

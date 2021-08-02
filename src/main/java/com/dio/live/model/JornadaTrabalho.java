@@ -2,6 +2,10 @@ package com.dio.live.model;
 
 import lombok.*;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -10,6 +14,12 @@ import lombok.*;
 @Builder
 public class JornadaTrabalho {
 
-    private long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String descricao;
+
+    public JornadaTrabalho(String descricao) {
+        this.descricao = descricao;
+    }
 }
